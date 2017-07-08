@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Setting up Jekyll"
+title: "Setting up Jekyll"
+description: "Today I'm setting up Jekyll and trying to get the blog going"
 date:   2017-07-08 14:25 +0200
 ---
 Jekyll is this awesome tool I'm using for this blog. I wanted to try and see what I could create with it and that is why I started this blog. Not sure what content I will fill it with, but probably some programming and some game related material.
