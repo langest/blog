@@ -1,13 +1,17 @@
 ---
 layout: default
 ---
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  <body>
-		{% for post in site.posts %}
-			<a href="{{ post.url }}">{{ post.title }}</a>
-			{{ post.title }}
-			{{ post.description }}
-			<br>
-		{% endfor %}
-  </body>
-</html>
+<body>
+	{% for post in site.posts %}
+	<a href="{{ post.url }}">
+		<div>
+			<h1>
+				{{ post.title }}
+			</h1>
+			<p>
+				{{ post.description }}
+			</p>
+		</div>
+	</a>
+	{% endfor %}
+</body>
